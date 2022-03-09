@@ -6,8 +6,10 @@ import {About} from './pages/About'
 import {Profile} from './pages/Profile'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import {AlertState} from './context/Alert/alertState'
+import {GithubState} from './context/GitHub/githubState'
 function App() {
   return (
+    <GithubState>
     <AlertState>
     <BrowserRouter>
     <Navbar />
@@ -25,6 +27,7 @@ function App() {
 </div>
     </BrowserRouter>
     </AlertState>
+    </GithubState>
   );
 }
 
