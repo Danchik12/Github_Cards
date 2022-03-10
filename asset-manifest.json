@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Github_Cards/static/css/main.13ad77b7.css",
+    "main.js": "/Github_Cards/static/js/main.ca368312.js",
+    "index.html": "/Github_Cards/index.html",
+    "main.13ad77b7.css.map": "/Github_Cards/static/css/main.13ad77b7.css.map",
+    "main.ca368312.js.map": "/Github_Cards/static/js/main.ca368312.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13ad77b7.css",
+    "static/js/main.ca368312.js"
+  ]
+}
