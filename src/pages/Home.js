@@ -1,8 +1,11 @@
 import React,{useContext} from 'react'
 import {Search} from './../components/Navigation/Search'
 import {Card} from './../components/Card'
+
 import {Loader} from './../components/Loader'
 import {GithubContext} from './../context/GitHub/githubContext'
+
+
 export const Home = () => {
 	const {loading,users} = useContext(GithubContext)
 	return (
