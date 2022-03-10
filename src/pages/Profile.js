@@ -1,6 +1,7 @@
 import React,{useContext,useEffect} from 'react'
 import {useParams} from 'react-router-dom'
 import {Loader} from './../components/Loader'
+import {Repos} from './../components/Repos'
 import {GithubContext} from './../context/GitHub/githubContext'
 export const Profile = () => {
 	let params=useParams()
@@ -54,11 +55,12 @@ getRepos(params.name)
 			  <div className="badge bg-success">Подписан : {following}</div>
 			   <div className="badge bg-info">Репозитории:{public_repos}</div>
 			    <div className="badge bg-warning">Gists:{public_gists}</div>
-		</div>
-		</div>
-		</div>
-		</div>
 
+		</div>
+		</div>
+		</div>
+		</div>
+		<Repos repos={repos} />
 
 		</>
 
